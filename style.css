@@ -1,0 +1,70 @@
+.container{
+    margin: 0 auto;
+    width: 960px;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 1.6;
+    background-color: #FFF1D6;
+}
+
+.SaoPaulo, .bares{
+    border-color: #CCC #999 #999 #CCC;
+    border: 1px solid #CCC;
+    margin-bottom:  20px;
+    padding: 10px;
+    background-color: #FFF;
+}
+
+.SaoPaulo h2, .bares h2{
+    border-bottom: 1px dashed #7E9F19;
+    margin: 0;
+}
+
+.SaoPaulo a, .bares a{
+    color: #2C88A7;
+    font-weight: bold;
+}
+
+.SaoPaulo img, .bares img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+}
+
+.clear{
+    clear: both;
+}
+article{
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 20px;
+}
+
+.outrasnotas{
+    background-color: #FFFBE4;
+    border: 1px solid #C9BC8F;
+    padding: 10px;
+    width: 260px;
+}
+
+.outrasnotas h3{
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.outrasnotas ol{
+    font-size: 12px;
+}
+
+/* .SaoPaulo{
+    display: grid;
+    grid-template-columns: 150px 450px;
+    column-gap: 10px;
+    padding-top: 10px;
+}
+ */
+
